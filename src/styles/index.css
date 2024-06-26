@@ -1,12 +1,43 @@
+body {
+    background-color: rgb(168, 171, 172);
+}
 
-/* 
+.hanger {
+    background-color: black;
+    color: black;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 15px;
+    height: 100px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.traffic-light {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center; 
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+.light {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.red {
+    background-color: rgb(204, 33, 33);
+}
+.yellow {
+    background-color: rgb(221, 204, 55);
+}
+.green {
+    background-color: rgb(11, 78, 11);
+}
+.glow {
+    box-shadow: inset 0px 0px 20px 10px rgb(255, 242, 216);
+}
+  
